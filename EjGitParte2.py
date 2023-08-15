@@ -18,7 +18,7 @@ def main ():
         elif option == 2:
             valor2 = float(input("\nIngrese el valor 2:"))
         elif option == 3:
-            if valor1 != None and valor2 != None:
+            if valor1 == None and valor2 != None:
                 print("\nSuma:",  (valor1 + valor2))
             else:
                 print("\nERROR: debe ingresar ambos valores primero")
@@ -35,12 +35,13 @@ def main ():
         elif option == 6:
             if valor1 != None and valor2 != None:
                 if valor2 !=0:
-                    print("\nDivision:",  (valor1 / valor2))
+                    print("\nDivision:"  (valor1 / valor2))
                 else:
                     print("\nNo se puede dividir por cero")
             else:
                 print("\nERROR: debe ingresar ambos valores primero")
         elif option == 7:
+            print("Chau")
             break
         else: print("\nOpcion invalida")
 
