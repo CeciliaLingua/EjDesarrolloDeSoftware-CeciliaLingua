@@ -1,6 +1,6 @@
 def main ():
     valor1 = None
-    valor2 = None
+    valor2 = None 
 
     while True:
         print ("1. Ingrese el valor 1")
