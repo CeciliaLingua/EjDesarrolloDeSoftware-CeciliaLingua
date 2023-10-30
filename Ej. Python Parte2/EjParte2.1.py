@@ -19,7 +19,7 @@ def promediar (lista):
     suma = 0
     for i in lista:
         suma += i
-        promedio = suma/len(lista)
+        promedio = suma/len(lista) 
     return promedio
 
 
