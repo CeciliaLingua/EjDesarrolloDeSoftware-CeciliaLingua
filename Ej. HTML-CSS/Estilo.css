@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Playfair+Display:wght@500&display=swap");
+
+.encabezado {
+    background-color: #ff0404;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.barra-navegacion {
+    background-color: #5c0101;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.barra-navegacion ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.barra-navegacion li {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.contenido {
+    padding: 20px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.Datos {
+    padding: 20px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+
+.pie-pagina {
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
